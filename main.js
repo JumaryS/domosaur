@@ -16,13 +16,13 @@ spanItUp.style.color = 'blue';
 spanItUp.addEventListener('click',makeBlue);
 
 const border = function(){
-theFirstIMG.style.border = 'thin dotted red';
+theFirstIMG.style.border = 'thin, dotted,orange';
 };
 theFirstIMG.addEventListener('click',border);
 // need some help with const ...(something)= function 
 const dino = document.querySelector('#feathers')
 const half = function(){
-dino.style.opacity = '0.5';
+dino.style.opacity = '0.9';
 };
 
 dino.addEventListener('click',half)
